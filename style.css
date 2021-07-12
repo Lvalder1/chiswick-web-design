@@ -58,4 +58,22 @@ body {
     display: block;
     text-align: left;
   }
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  border: black 1px solid;
+  align-items: center;
+}
+
+.numbersContainer {
+  display: flex;
+  flex-direction: row;
+  border: black 1px solid;
+}
+
+.numberTxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

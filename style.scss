@@ -55,3 +55,30 @@ body {
         text-align: left;
     }
 }
+
+//Header
+
+//Counter
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    border: black 1px solid;
+    align-items: center;
+}
+
+.numbersContainer {
+    display: flex;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+.numberTxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+
+
