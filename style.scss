@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 0 15%;
+    margin: 0 20%;
 }
 
 //Nav Bar
@@ -56,6 +56,8 @@ body {
     }
 }
 
+//Nav End
+
 //Header
 
 .slogan {
@@ -67,6 +69,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 50px;
+}
+
+.sloganTxt {
+    margin: 20px 0;
 }
 
 .sloganRight {
@@ -74,6 +81,7 @@ body {
     flex-direction: column;
     width: 50%;
 }
+
 
 //Counter
 
@@ -99,6 +107,18 @@ body {
     margin: 10px;
 }
 
+//Counter End
 
+//Buttons
+
+button {
+    border: none;
+    border-radius: 40%;
+    padding: 10px 20px;
+}
+
+// Buttons End
+
+//Header End
 
 
