@@ -59,21 +59,41 @@ body {
     text-align: left;
   }
 }
+.slogan {
+  display: flex;
+  align-items: center;
+}
+
+.sloganLeft {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.sloganRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 .counter {
   display: flex;
   flex-direction: column;
-  border: black 1px solid;
   align-items: center;
 }
 
 .numbersContainer {
   display: flex;
   flex-direction: row;
-  border: black 1px solid;
 }
 
 .numberTxt {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+}
+
+.divider {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
