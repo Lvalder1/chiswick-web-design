@@ -1,5 +1,4 @@
 $mainColor: rgb(48, 7, 114);
-$siteMargin: 0 20%;
 
 * {
     margin: 0;
@@ -8,15 +7,28 @@ $siteMargin: 0 20%;
 }
 
 body {
-    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 //Header
+
+.innerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: $mainColor;
+    width: 100%;
+}
 
 //Nav Bar
 
 .nav {
     overflow: hidden;
-    background-color: $mainColor ;
 }
   
 .nav a {
@@ -61,10 +73,6 @@ body {
 }
 
 //Nav End
-
-header {
-    background-color: $mainColor;
-}
 
 .slogan {
     display: flex;
