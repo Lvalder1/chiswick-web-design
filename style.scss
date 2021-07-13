@@ -1,3 +1,6 @@
+$mainColor: rgb(48, 7, 114);
+$siteMargin: 0 20%;
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +10,13 @@
 body {
     margin: 0 20%;
 }
+//Header
 
 //Nav Bar
 
 .nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: $mainColor ;
 }
   
 .nav a {
@@ -58,7 +62,9 @@ body {
 
 //Nav End
 
-//Header
+header {
+    background-color: $mainColor;
+}
 
 .slogan {
     display: flex;
@@ -120,7 +126,7 @@ button {
     padding: 10px 20px;
 }
 
-// Buttons End
+//Buttons End
 
 //Header End
 
@@ -155,3 +161,36 @@ button {
 #box2 {
     margin: 0 10px;
 }
+
+//Features End
+
+//About
+
+.about {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        flex: 50%;
+    }
+}
+
+.aboutTxt {
+    flex: 50%;
+}
+
+.infoCounter {
+    display: flex; 
+    flex-direction: row;
+}
+
+.numberTxt {
+    display: flex;
+    flex-direction: column;
+}
+
+.check {
+    display: flex;
+}
+
+//About End
