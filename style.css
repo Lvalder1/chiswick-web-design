@@ -4,21 +4,19 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .innerHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
+  height: 70VH;
 }
 
 header {
   background-color: #300772;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .nav {
@@ -81,9 +79,11 @@ header {
   flex-direction: column;
   width: 50%;
   margin-top: 50px;
+  color: white;
 }
 .sloganLeft h1 {
-  margin: 20px 0;
+  margin: 20px 0 0 0;
+  font-size: 40px;
 }
 
 .sloganTxt {
@@ -100,6 +100,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: solid 10px #5611c5;
+  margin: 3vh 0;
 }
 
 .numbersContainer {
