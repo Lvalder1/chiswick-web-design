@@ -92,6 +92,9 @@ header {
   flex-direction: column;
   width: 50%;
 }
+.sloganRight img {
+  width: 100%;
+}
 
 .counter {
   display: flex;
