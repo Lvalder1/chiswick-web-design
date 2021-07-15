@@ -114,6 +114,14 @@ header {
     flex-direction: row;
 }
 
+.number {
+    color: orangered;
+}
+
+.divider {
+    color: orangered;
+}
+
 .numberTxt {
     display: flex;
     flex-direction: column;
@@ -139,7 +147,11 @@ button {
     padding: 10px 20px;
     background-color: $mainColor;
     color: $txtColor1;
+}
 
+.readMoreBtn {
+    border: none;
+    background-color: orangered;
 }
 
 //Buttons End
