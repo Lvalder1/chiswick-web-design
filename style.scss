@@ -155,19 +155,20 @@ button {
     background-color: rgb(196, 189, 189);
 
     h2 {
-        margin: 5vh 0 2vh 0;  
+        margin: 5vh 0 0 0;  
     }
 }
 
 .featuresTag {
     text-align: center;
     width: 45%;
-    margin-bottom: 30px;
+    margin: 3vh 0 0 0;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
+    margin: 8vh 0;
     
     .box {
         display: flex;
@@ -191,7 +192,10 @@ button {
 
 hr {
     width: 40%;
+    border: 0;
+    height: 3px;
     margin-top: 3vh;
+    background-color:rgb(86, 17, 197);
 }
 
 .fa-adjust {
@@ -233,6 +237,16 @@ hr {
 
 .aboutTxt {
     flex: 50%;
+
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+        margin: 3vh 0;
+    }
+}
+
+.aboutTxtInner {
+    margin: 0 0 3vh 0;
 }
 
 .infoCounter {
@@ -240,13 +254,39 @@ hr {
     flex-direction: row;
 }
 
-.numberTxt {
+.infoNumberTxt {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+
+    .number {
+        color: red;
+        font-size: 25px;
+    }
+}
+
+.verticalDivider {
+    transform: rotate(90deg);
+    width: 10%;
+    margin: 10 0;
+    background-color: rgb(102, 101, 101);
+}
+
+.txt {
+    font-weight: bold;
+}
+
+.checkTxt {
+    margin: 20px 0;
 }
 
 .check {
     display: flex;
+}
+
+.fa-check {
+    margin: 0 5px 0 0;
+    color: $mainColor;
 }
 
 //About End

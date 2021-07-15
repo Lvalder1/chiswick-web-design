@@ -137,18 +137,19 @@ button {
   background-color: #c4bdbd;
 }
 .features h2 {
-  margin: 5vh 0 2vh 0;
+  margin: 5vh 0 0 0;
 }
 
 .featuresTag {
   text-align: center;
   width: 45%;
-  margin-bottom: 30px;
+  margin: 3vh 0 0 0;
 }
 
 .boxes {
   display: flex;
   justify-content: center;
+  margin: 8vh 0;
 }
 .boxes .box {
   display: flex;
@@ -170,7 +171,10 @@ button {
 
 hr {
   width: 40%;
+  border: 0;
+  height: 3px;
   margin-top: 3vh;
+  background-color: #5611c5;
 }
 
 .fa-adjust {
@@ -206,17 +210,51 @@ hr {
 .aboutTxt {
   flex: 50%;
 }
+.aboutTxt h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 3vh 0;
+}
+
+.aboutTxtInner {
+  margin: 0 0 3vh 0;
+}
 
 .infoCounter {
   display: flex;
   flex-direction: row;
 }
 
-.numberTxt {
+.infoNumberTxt {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+.infoNumberTxt .number {
+  color: red;
+  font-size: 25px;
+}
+
+.verticalDivider {
+  transform: rotate(90deg);
+  width: 10%;
+  margin: 10 0;
+  background-color: #666565;
+}
+
+.txt {
+  font-weight: bold;
+}
+
+.checkTxt {
+  margin: 20px 0;
 }
 
 .check {
   display: flex;
+}
+
+.fa-check {
+  margin: 0 5px 0 0;
+  color: #300772;
 }/*# sourceMappingURL=style.css.map */
