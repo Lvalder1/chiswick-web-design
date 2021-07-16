@@ -89,11 +89,11 @@ header {
 
 .sloganRight {
   display: flex;
-  flex-direction: column;
   width: 50%;
+  justify-content: center;
 }
 .sloganRight img {
-  width: 100%;
+  width: 70%;
 }
 
 .counter {
@@ -214,13 +214,19 @@ hr {
   display: flex;
   justify-content: center;
 }
-.about img {
-  flex: 50%;
-}
 
 .aboutInner {
   display: flex;
   flex-direction: row;
+}
+
+.holdingImg2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.holdingImg2 img {
+  width: 70%;
 }
 
 .aboutTxt {
@@ -254,7 +260,6 @@ hr {
 .verticalDivider {
   transform: rotate(90deg);
   width: 10%;
-  margin: 10 0;
   background-color: #666565;
 }
 
@@ -263,7 +268,7 @@ hr {
 }
 
 .checkTxt {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .check {
