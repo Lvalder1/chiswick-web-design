@@ -104,6 +104,10 @@ header {
   border-radius: 12px;
   margin: 3vh 0;
 }
+.counter p {
+  font-size: 20px;
+  margin: 10px;
+}
 
 .numbersContainer {
   display: flex;
@@ -116,13 +120,16 @@ header {
 
 .divider {
   color: orangered;
+  font-size: 30px;
 }
 
 .numberTxt {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+}
+.numberTxt p {
+  font-size: 30px;
 }
 
 .divider {

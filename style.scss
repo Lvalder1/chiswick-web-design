@@ -111,6 +111,11 @@ header {
     border: solid 10px rgb(86, 17, 197);
     border-radius: 12px;
     margin: 3vh 0;
+
+    p {
+        font-size: 20px;
+        margin: 10px;
+    }
 }
 
 .numbersContainer {
@@ -124,13 +129,17 @@ header {
 
 .divider {
     color: orangered;
+    font-size: 30px;
 }
 
 .numberTxt {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin: 10px;
+    
+    p {
+        font-size: 30px;
+    }
 }
 
 .divider {
