@@ -13,6 +13,12 @@
   width: 70%;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 3vh 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -241,11 +247,6 @@ hr {
 .aboutTxt {
   flex: 50%;
 }
-.aboutTxt h2 {
-  font-weight: bold;
-  font-size: 30px;
-  margin: 3vh 0;
-}
 
 .aboutTxtInner {
   margin: 0 0 3vh 0;
@@ -307,9 +308,6 @@ hr {
   color: white;
   flex: 50%;
 }
-.infoTxt h2 {
-  font-size: 40px;
-}
 
 .progress {
   margin: 3vh 0;
@@ -335,4 +333,35 @@ meter {
   justify-content: center;
   flex-grow: 1;
   width: 3%;
+}
+
+.callToAction {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.callToAction .container {
+  width: 50%;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.icon p {
+  width: 100%;
+}
+
+.hr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
