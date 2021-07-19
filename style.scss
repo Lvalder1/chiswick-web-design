@@ -325,6 +325,9 @@ hr {
 //About End
 
 //Info With Chart
+// #containerRow {
+//     flex-direction: row;
+// }
 
 .infoWithChart {
     display: flex;
@@ -336,7 +339,7 @@ hr {
 .infoInner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -383,6 +386,10 @@ meter {
 
     .container {
         width: 50%;
+
+        .holdingImg {
+            width: 100%;
+        }
     }
 }
 

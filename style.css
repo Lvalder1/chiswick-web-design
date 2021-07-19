@@ -300,7 +300,7 @@ hr {
 .infoInner {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -342,6 +342,9 @@ meter {
 }
 .callToAction .container {
   width: 50%;
+}
+.callToAction .container .holdingImg {
+  width: 100%;
 }
 
 .timeline {
