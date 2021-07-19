@@ -304,10 +304,8 @@ hr {
 }
 
 .infoTxt {
-  display: flex;
-  flex-direction: column;
   color: white;
-  width: 50%;
+  flex: 50%;
 }
 .infoTxt h2 {
   font-size: 40px;

@@ -1,5 +1,6 @@
 $mainColor: rgb(48, 7, 114);
-$txtColor1 : white;
+$txtColor1: white;
+$txtColor2: orangered;
 
 * {
     margin: 0;
@@ -134,11 +135,11 @@ header {
 }
 
 .number {
-    color: orangered;
+    color: $txtColor2;
 }
 
 .divider {
-    color: orangered;
+    color: $txtColor2;
     font-size: 30px;
 }
 
@@ -174,7 +175,7 @@ button {
 
 .readMoreBtn {
     border: none;
-    background-color: orangered;
+    background-color: $txtColor2;
 }
 
 //Buttons End
@@ -340,10 +341,8 @@ hr {
 }
 
 .infoTxt {
-    display: flex;
-    flex-direction: column;
     color: white;
-    width: 50%;
+    flex: 50%;
 
     h2 {
         font-size: 40px;
