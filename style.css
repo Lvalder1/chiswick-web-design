@@ -211,7 +211,6 @@ hr {
   width: 40%;
   border: 0;
   height: 3px;
-  margin-top: 3vh;
   background-color: #5611c5;
 }
 
@@ -255,6 +254,7 @@ hr {
 .infoCounter {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .infoNumberTxt {
@@ -362,9 +362,27 @@ meter {
   width: 100%;
 }
 
+.hrTimeline {
+  margin-top: 2vh;
+}
+
 .hr {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 50%;
+}
+
+.counterBox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.counterBox .infoCounter {
+  background-color: #300772;
+  color: white;
+  border-radius: 12px;
+}
+.counterBox .infoCounter .number {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

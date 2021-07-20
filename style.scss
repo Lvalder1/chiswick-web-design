@@ -236,7 +236,6 @@ hr {
     width: 40%;
     border: 0;
     height: 3px;
-    margin-top: 3vh;
     background-color:rgb(86, 17, 197);
 }
 
@@ -286,6 +285,7 @@ hr {
 .infoCounter {
     display: flex; 
     flex-direction: row;
+    align-items: center;
 }
 
 .infoNumberTxt {
@@ -323,11 +323,6 @@ hr {
 }
 
 //About End
-
-//Info With Chart
-// #containerRow {
-//     flex-direction: row;
-// }
 
 .infoWithChart {
     display: flex;
@@ -408,10 +403,33 @@ meter {
         width: 100%;
     }
 }
+.hrTimeline {
+    margin-top: 2vh;
+}
 
 .hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 50%;
+}
+
+//Call To Action End
+
+//Counter Box
+
+.counterBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .infoCounter {
+        background-color: $mainColor;
+        color: $txtColor1;
+        border-radius: 12px;
+
+        .number {
+            color: $txtColor1;
+        }
+    }
 }
