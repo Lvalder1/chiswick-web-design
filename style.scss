@@ -334,7 +334,6 @@ hr {
 .infoInner {
     display: flex;
     flex-direction: row;
-    align-items: center;
     width: 100%;
 }
 
@@ -405,13 +404,13 @@ meter {
 }
 .hrTimeline {
     margin-top: 2vh;
+    width: 120%;
 }
 
 .hr {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 50%;
+    overflow: visible;
+    transform: translateX(-10%);
 }
 
 //Call To Action End
@@ -419,7 +418,6 @@ meter {
 //FAQ
 
 .faq {
-    height: 200px;
     background-color: rgb(196, 189, 189);
     top: 70px;
     position: relative;
@@ -448,3 +446,50 @@ meter {
 }
 
 //Counter Box End
+
+//FAQ Txt
+
+.faqTxt {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 50%;
+        text-align: center;
+
+        h2 {
+            margin-top: 5vh;
+            transform: translateY(+50%);
+        }
+    }
+}
+
+.faqTabs {
+    display: flex;
+    flex-direction: row;
+    margin: 3vw 0;
+
+    p {
+        margin: 0 3vw;
+    }
+}
+
+.colums {
+    display: flex;
+    flex-direction: row;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 50%;
+
+    p {
+        margin: 3vh 2vw;
+    }
+}
+
+.header {
+    font-weight: bold;
+}
