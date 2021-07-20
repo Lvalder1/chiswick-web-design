@@ -416,20 +416,35 @@ meter {
 
 //Call To Action End
 
+//FAQ
+
+.faq {
+    height: 200px;
+    background-color: rgb(196, 189, 189);
+    top: 70px;
+    position: relative;
+}
+
 //Counter Box
 
 .counterBox {
+    
     display: flex;
     justify-content: center;
     text-align: center;
-
+    
     .infoCounter {
         background-color: $mainColor;
         color: $txtColor1;
         border-radius: 12px;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 0;
 
         .number {
             color: $txtColor1;
         }
     }
 }
+
+//Counter Box End

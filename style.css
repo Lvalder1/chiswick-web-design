@@ -373,6 +373,13 @@ meter {
   width: 50%;
 }
 
+.faq {
+  height: 200px;
+  background-color: #c4bdbd;
+  top: 70px;
+  position: relative;
+}
+
 .counterBox {
   display: flex;
   justify-content: center;
@@ -382,6 +389,9 @@ meter {
   background-color: #300772;
   color: white;
   border-radius: 12px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 0;
 }
 .counterBox .infoCounter .number {
   color: white;
