@@ -430,13 +430,13 @@ meter {
   flex-direction: row;
 }
 
-.colum {
+.column {
   display: flex;
   flex-direction: column;
   text-align: start;
   width: 50%;
 }
-.colum p {
+.column p {
   margin: 3vh 2vw;
 }
 
@@ -489,4 +489,46 @@ input:focus {
 #subscribe {
   color: white;
   background-color: orangered;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #300772;
+}
+footer .container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .container .column {
+  width: 25%;
+  color: white;
+}
+footer .container .column p {
+  margin: 1vh 0;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.contactInfo i {
+  margin: 0 2vw 0 0;
+  color: orangered;
+}
+
+.columnRow {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.columnRow i {
+  margin: 0 1vw 0 0;
+}
+
+.newsPost hr {
+  background-color: #c4bdbd;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

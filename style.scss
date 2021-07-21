@@ -493,7 +493,7 @@ meter {
     flex-direction: row;
 }
 
-.colum {
+.column {
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -567,4 +567,57 @@ input:focus {
 #subscribe {
     color: $txtColor1;
     background-color: $txtColor2;
+}
+
+//Email Sign Up End
+
+//Footer
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: $mainColor;
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .column {
+            width: 25%;
+            color: $txtColor1;
+        
+            p {
+                margin: 1vh 0;
+            }
+        }
+    }
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    i {
+        margin: 0 2vw 0 0;
+        color: $txtColor2;
+    }
+}
+
+.columnRow {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    i {
+        margin: 0 1vw 0 0;
+    }
+}
+
+.newsPost {
+    hr {
+        background-color: $accentColor;
+        width: 100%;
+    }
 }
