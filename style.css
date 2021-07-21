@@ -19,6 +19,12 @@ h2 {
   margin: 3vh 0;
 }
 
+h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -200,11 +206,6 @@ button {
   height: auto;
   padding: 25px;
   background-color: white;
-}
-.boxes .box h3 {
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-size: 25px;
 }
 
 hr {
@@ -453,8 +454,39 @@ meter {
   display: flex;
   flex-direction: row;
   width: 80%;
+  align-items: center;
 }
 
 .answersTxt {
   width: 50%;
+}
+.answersTxt h2 {
+  color: blue;
+}
+
+.emailSignUp {
+  display: flex;
+  justify-content: center;
+}
+.emailSignUp h4 {
+  color: blue;
+}
+
+div form {
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+div form input {
+  border: none;
+  padding: 10px 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#subscribe {
+  color: white;
+  background-color: orangered;
 }/*# sourceMappingURL=style.css.map */

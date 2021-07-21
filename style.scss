@@ -25,6 +25,12 @@ h2 {
     margin: 3vh 0;
 }
 
+h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
 //Header
 
 .container {
@@ -224,12 +230,6 @@ button {
         height: auto;
         padding: 25px;
         background-color: white;
-
-        h3 {
-            font-weight: bold;
-            margin-bottom: 20px;
-            font-size: 25px;
-        }
     }
 }
 
@@ -521,9 +521,50 @@ meter {
 .answersContainer {
     display: flex;
     flex-direction: row;
-    width: 80%
+    width: 80%;
+    align-items: center;
 }
 
 .answersTxt {
     width: 50%;
+
+    h2 {
+        color: blue;
+    }
+}
+
+//Answers End
+
+// Email Sign Up
+
+.emailSignUp {
+    display: flex;
+    justify-content: center;
+
+    h4 {
+        color: blue;
+    }
+}
+
+div {
+
+    form {
+        border: 1px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+
+        input {
+            border: none;
+            padding: 10px 20px;
+        }
+    }
+}
+
+input:focus {
+    outline:none;
+}
+
+#subscribe {
+    color: $txtColor1;
+    background-color: $txtColor2;
 }
