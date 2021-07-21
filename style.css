@@ -23,7 +23,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 80%;
 }
 
 header {
@@ -270,7 +270,7 @@ hr {
 .verticalDivider {
   transform: rotate(90deg);
   width: 10%;
-  background-color: #666565;
+  background-color: #c4bdbd;
 }
 
 .txt {
@@ -301,6 +301,7 @@ hr {
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: center;
 }
 
 .infoTxt {
@@ -372,10 +373,12 @@ meter {
   transform: translateX(-10%);
 }
 
+#freeTrial {
+  margin-bottom: 50px;
+}
+
 .faq {
   background-color: #c4bdbd;
-  top: 70px;
-  position: relative;
 }
 
 .counterBox {
@@ -387,7 +390,6 @@ meter {
   background-color: #300772;
   color: white;
   border-radius: 12px;
-  position: absolute;
   transform: translateY(-50%);
   top: 0;
 }
@@ -405,7 +407,6 @@ meter {
 }
 .faqTxt .container h2 {
   margin-top: 5vh;
-  transform: translateY(50%);
 }
 
 .faqTabs {
@@ -415,6 +416,12 @@ meter {
 }
 .faqTabs p {
   margin: 0 3vw;
+  font-weight: bold;
+}
+
+.faqTabs p:hover {
+  color: #300772;
+  text-decoration: underline;
 }
 
 .colums {
@@ -434,4 +441,20 @@ meter {
 
 .header {
   font-weight: bold;
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  background-color: #c4bdbd;
+}
+
+.answersContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.answersTxt {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */

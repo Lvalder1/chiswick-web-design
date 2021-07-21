@@ -1,4 +1,5 @@
 $mainColor: rgb(48, 7, 114);
+$accentColor: rgb(196, 189, 189);
 $txtColor1: white;
 $txtColor2: orangered;
 
@@ -30,7 +31,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 80%;
 }
 
 header {
@@ -194,7 +195,7 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(196, 189, 189);
+    background-color: $accentColor;
 
     h2 {
         margin: 5vh 0 0 0;  
@@ -302,7 +303,7 @@ hr {
 .verticalDivider {
     transform: rotate(90deg);
     width: 10%;
-    background-color: rgb(102, 101, 101);
+    background-color: $accentColor;
 }
 
 .txt {
@@ -324,6 +325,8 @@ hr {
 
 //About End
 
+//Info With Chart
+
 .infoWithChart {
     display: flex;
     justify-content: center;
@@ -335,6 +338,7 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    align-items: center;
 }
 
 .infoTxt {
@@ -413,14 +417,17 @@ meter {
     transform: translateX(-10%);
 }
 
+#freeTrial {
+    margin-bottom: 50px;
+}
+
+
 //Call To Action End
 
 //FAQ
 
 .faq {
-    background-color: rgb(196, 189, 189);
-    top: 70px;
-    position: relative;
+    background-color: $accentColor;
 }
 
 //Counter Box
@@ -435,7 +442,6 @@ meter {
         background-color: $mainColor;
         color: $txtColor1;
         border-radius: 12px;
-        position: absolute;
         transform: translateY(-50%);
         top: 0;
 
@@ -459,7 +465,6 @@ meter {
 
         h2 {
             margin-top: 5vh;
-            transform: translateY(+50%);
         }
     }
 }
@@ -471,6 +476,15 @@ meter {
 
     p {
         margin: 0 3vw;
+        font-weight: bold;
+    }
+}
+
+.faqTabs {
+
+    p:hover {
+        color: $mainColor;
+        text-decoration: underline;
     }
 }
 
@@ -492,4 +506,24 @@ meter {
 
 .header {
     font-weight: bold;
+}
+
+//Faq End
+
+//Answers
+
+.answers {
+    display: flex;
+    justify-content: center;
+    background-color: $accentColor;
+}
+
+.answersContainer {
+    display: flex;
+    flex-direction: row;
+    width: 80%
+}
+
+.answersTxt {
+    width: 50%;
 }
