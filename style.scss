@@ -67,6 +67,7 @@ nav {
 
     i {
         padding: 14px 30vw 14px 16px;
+        color: $txtColor2;
     }
 }
 
@@ -662,6 +663,12 @@ footer {
                 margin: 1vh 0;
             }
         }
+    }
+}
+
+.column {
+    i {
+        color: $txtColor2;
     }
 }
 
