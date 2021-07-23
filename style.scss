@@ -691,6 +691,14 @@ footer {
     i {
         margin: 0 1vw 0 0;
     }
+
+    span {
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: orange;
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
 }
 
 .newsPost {
