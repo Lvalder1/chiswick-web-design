@@ -1,4 +1,4 @@
-# chiswick-web-design
+# Chiswick Web Design
 
 This project is a website created using HTML and SASS. 
 
