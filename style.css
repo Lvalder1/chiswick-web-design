@@ -8,14 +8,18 @@
   width: 50%;
   display: flex;
   justify-content: center;
+  margin: 2vh 0;
+  height: auto;
 }
 .holdingImg img {
   width: 70%;
+  overflow: hidden;
+  align-self: center;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   margin: 3vh 0;
 }
 
@@ -23,6 +27,11 @@ h3 {
   font-weight: bold;
   margin-bottom: 20px;
   font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 1vh 0;
 }
 
 .container {
@@ -35,40 +44,59 @@ h3 {
 header {
   background-color: #300772;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  width: 80%;
 }
 
 .nav {
   overflow: hidden;
 }
+.nav i {
+  padding: 14px 30vw 14px 16px;
+}
+
+.logo {
+  display: inline-block;
+}
 
 .nav a {
-  float: left;
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
+  text-decoration: none;
+  border-bottom: 2px solid #300772;
 }
 
 .nav a:hover {
-  background-color: #ddd;
-  color: black;
+  border-bottom: 2px solid orangered;
 }
 
 .nav .icon {
   display: none;
+  border-bottom: none;
 }
 
 @media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {
+  .nav a {
     display: none;
   }
 
   .nav a.icon {
     float: right;
     display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .nav a.icon:hover {
+    border-bottom: none;
   }
 }
 @media screen and (max-width: 600px) {
@@ -77,15 +105,20 @@ header {
   }
 
   .nav.responsive .icon {
+    float: right;
+    display: block;
     position: absolute;
     right: 0;
     top: 0;
   }
 
   .nav.responsive a {
-    float: none;
     display: block;
-    text-align: left;
+    border-bottom: none;
+  }
+
+  .nav.responsive a:hover {
+    border-bottom: none;
   }
 }
 .slogan {
@@ -127,7 +160,7 @@ header {
 }
 .counter p {
   font-size: 20px;
-  margin: 10px;
+  margin: 0.2vw;
 }
 
 .numbersContainer {
@@ -141,7 +174,7 @@ header {
 
 .divider {
   color: orangered;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .numberTxt {
@@ -150,15 +183,21 @@ header {
   align-items: center;
 }
 .numberTxt p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .divider {
-  margin: 10px;
+  margin: 0.2vw;
 }
 
 .buttons {
   margin-bottom: 10vh;
+}
+.buttons .readMoreBtn {
+  margin-right: 10px;
+}
+.buttons .preSale {
+  margin-left: 10px;
 }
 
 button {
@@ -172,6 +211,7 @@ button {
 .readMoreBtn {
   border: none;
   background-color: orangered;
+  margin: 2vh 0;
 }
 
 .features {
@@ -213,6 +253,7 @@ hr {
   border: 0;
   height: 3px;
   background-color: #5611c5;
+  margin-top: 10px;
 }
 
 .fa-adjust {
@@ -240,7 +281,6 @@ hr {
 .aboutInner {
   display: flex;
   flex-direction: row;
-  align-items: center;
   width: 100%;
 }
 
@@ -272,6 +312,7 @@ hr {
   transform: rotate(90deg);
   width: 10%;
   background-color: #c4bdbd;
+  margin-top: 0;
 }
 
 .txt {
@@ -295,14 +336,12 @@ hr {
   display: flex;
   justify-content: center;
   background-color: #300772;
-  padding-top: 10vh;
 }
 
 .infoInner {
   display: flex;
   flex-direction: row;
   width: 100%;
-  align-items: center;
 }
 
 .infoTxt {
@@ -319,6 +358,8 @@ hr {
 .progressContainer {
   display: flex;
   flex-direction: row;
+  margin: 1vh 0;
+  align-items: center;
 }
 .progressContainer div {
   flex-grow: 1;
@@ -326,7 +367,7 @@ hr {
 }
 
 meter {
-  flex-grow: 3;
+  width: 60%;
 }
 
 .meterValue {
@@ -350,8 +391,8 @@ meter {
 
 .timeline {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+  margin: 3vh 0 0 0;
 }
 
 .icon {
@@ -363,9 +404,22 @@ meter {
   width: 100%;
 }
 
+#icon1 i {
+  color: orangered;
+}
+
+#icon2 i {
+  color: red;
+}
+
+#icon3 i {
+  color: green;
+}
+
 .hrTimeline {
   margin-top: 2vh;
   width: 120%;
+  background-color: #c4bdbd;
 }
 
 .hr {
@@ -470,6 +524,7 @@ meter {
 }
 .emailSignUp h4 {
   color: blue;
+  margin: 2vh 0;
 }
 
 div form {
@@ -489,6 +544,10 @@ input:focus {
 #subscribe {
   color: white;
   background-color: orangered;
+}
+
+.email {
+  margin: 3vh 0;
 }
 
 footer {
@@ -531,4 +590,103 @@ footer .container .column p {
 .newsPost hr {
   background-color: #c4bdbd;
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    width: 100%;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .slogan {
+    flex-direction: column;
+  }
+
+  .sloganLeft {
+    width: 100%;
+  }
+
+  .holdingImg {
+    width: 100%;
+  }
+
+  .buttons {
+    margin-bottom: 0;
+  }
+
+  .featuresTag {
+    width: 100%;
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxes .box {
+    width: 80%;
+    margin: 20px 10px;
+  }
+
+  .aboutInner {
+    flex-direction: column;
+    margin: 2vh 0;
+  }
+
+  .infoInner {
+    flex-direction: column;
+  }
+
+  .callToAction {
+    flex-direction: column;
+    align-items: center;
+  }
+  .callToAction .container {
+    width: 95%;
+  }
+
+  meter {
+    width: 30%;
+  }
+
+  .infoNumberTxt {
+    font-size: 8px;
+  }
+  .infoNumberTxt .number {
+    font-size: 8px;
+  }
+
+  .faqTxt .container {
+    width: 100%;
+  }
+
+  .colums {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .answersContainer {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .answersTxt {
+    width: 100%;
+  }
+  .answersTxt h2 {
+    text-align: center;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .column {
+    width: 100%;
+    margin: 3vh 0;
+  }
 }/*# sourceMappingURL=style.css.map */
